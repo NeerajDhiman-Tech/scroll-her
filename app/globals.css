@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: #0a0a0f; color: #fff; font-family: system-ui, sans-serif; }
+.road {
+  background-image: repeating-linear-gradient(90deg, #fff 0 60px, transparent 60px 120px);
+  background-size: 120px 4px;
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+}
+.wheel { transform-box: fill-box; transform-origin: center; }
